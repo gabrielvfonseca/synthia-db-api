@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <style>
+        div p {
+            color: rgb(115 115 115);
+        }
+        div b {
+            color: hsla(0,0%,96%,.8);
+        }
+        footer {
+            color: hsla(0,0%,96%,.38);
+            border-top: 1px solid hsla(0,0%,96%,.14);
+        }
+        h1 {
+            background-image: linear-gradient(to bottom left,var(--tw-gradient-stops));
+            --tw-gradient-from: #fff;
+            --tw-gradient-to: hsla(0,0%,100%,0);
+            --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+            --tw-gradient-to: hsla(0,0%,96%,.7);
+            -webkit-background-clip: text;
+            background-clip: text;
+            font-weight: 700;
+            color: transparent;
+        }
+        button {
+            box-shadow: -8px 0 20px rgba(232,121,249,.3),0 0 20px rgba(34,211,238,.3),8px 0 20px rgba(244,63,94,.3);
+            transition: 0.3s;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+<body class="py-12 px-8 max-w-lg">
+    <header>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="26" viewBox="0 0 217.63 184.1">
+            <path fill="#fff" d="M227.16,92.05,135.11,0,118.35,16.77,101.58,0,9.53,92.05l92.05,92.05,16.76-16.76L135.1,184.1l92.05-92.05Zm-150.56,0L118.35,50.3,160.1,92.05,118.35,133.8Z" transform="translate(-9.53)"/>
+        </svg>
+    </header>
+
+    <div class="flex flex-col items-left justify-left h-screen py-10 mb-5">
+        <div class="space-y-5 mb-10">
+            <h1 class="my-4 text-left text-4xl leading-[28px] tracking-[-0.6px]">
+                Congratulations! You've enter the waitlist!
+            </h1>
+            <p>
+                Thank you <b>[gabriel@outlook.pt]</b> for signing up for our waitlist program here at <b>Synthia</b>. We're thrilled to have you onboard! 🎉
+                As a <em>single-person</em> project, Synthia is a labor of love that we're pursuing for <b>research purposes</b>. We're working 
+                hard to bring our platform to life and make it the best it can be. 👏
+            </p>
+            <p>
+                We'll also keep you informed about any <b>new developments or exciting features</b> we're working on.
+                Thank you again for joining our waitlist program. We appreciate your support and look forward to sharing <b>Synthia</b> with you soon!
+            </p>
+        </div>
+
+        <a href="https://ai.gabfon.me">
+            <button class="gap-3 whitespace-nowrap rounded-md px-6 py-2 text-md font-semibold transition bg-white text-black">
+                Sign in
+            </button>   
+        </a> 
+    </div>
+
+    <footer class="pt-16 space-y-5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 217.63 184.1">
+            <path fill="#fff" d="M227.16,92.05,135.11,0,118.35,16.77,101.58,0,9.53,92.05l92.05,92.05,16.76-16.76L135.1,184.1l92.05-92.05Zm-150.56,0L118.35,50.3,160.1,92.05,118.35,133.8Z" transform="translate(-9.53)"/>
+        </svg>
+
+        <p class="text-sm font-medium">
+            <a class="underline hover:text-white duration-200" href="https://ai.gabfon.me/">ai.gabfon.me</a> 
+            check this out
+        </p>
+
+        <p class="text-sm font-medium">
+            Messages from Gabriel will always come from a @gabfon.me email address.
+            We will never ask you to account information or passwords.
+        </p>
+
+        <p class="text-sm font-medium">
+            &copy; 2023 gabfon. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>

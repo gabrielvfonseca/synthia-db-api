@@ -1,0 +1,1 @@
+{"version":3,"file":"aws.js","sourceRoot":"","sources":["../../src/utils/aws.ts"],"names":[],"mappings":"AAAA,MAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAE/B,GAAG,CAAC,MAAM,CAAC,MAAM,CAAC;IACd,WAAW,EAAE,CAAA,AAAmB,CAAA;IAChC,eAAe,EAAE,CAAA,AAAmB,CAAA;IACpC,MAAM,EAAE,CAAA,AAAmB,CAAA;CAC9B,CAAC,CAAC"}
